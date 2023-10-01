@@ -94,7 +94,6 @@ class AddProductWindow(QMainWindow):
             cursor.close()
             connection.close()
 
-            # อัปเดตตารางเมื่อเพิ่มสินค้า
             self.load_data()
 
         except mysql.connector.Error as err:
